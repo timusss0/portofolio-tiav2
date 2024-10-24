@@ -1,0 +1,40 @@
+#profileImage {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 323) and (max-width: 400px) {
+        #profileImage {
+            width: 140px; /* For screens ≥576px */
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 400px) {
+        #profileImage {
+            width: 340px; /* For screens ≥576px */
+        }
+    }
+  
+    /* Media queries for different screen sizes */
+    @media screen and (min-width: 576px) {
+        #profileImage {
+            width: 400px; /* For screens ≥576px */
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        #profileImage {
+            width: 600px; /* For screens ≥768px */
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        #profileImage {
+            width: 700px; /* For screens ≥992px */
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        #profileImage {
+        
+            width: 500px; /* For screens ≥1200px */
+        
+    }
